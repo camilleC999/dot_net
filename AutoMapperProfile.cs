@@ -12,6 +12,8 @@ namespace dot_net
         public AutoMapperProfile()
         {
             CreateMap<Character, GetCharacterDTO>();
+            CreateMap<AddCharacterDTO, Character>();
+            CreateMap<UpdateCharacterDTO, Character>();
         }
     }
 }
